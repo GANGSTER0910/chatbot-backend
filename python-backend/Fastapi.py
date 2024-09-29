@@ -168,7 +168,7 @@ async def handle_chat(chat: Response):
         chatbot_response = await chatbot(user_input)
     elif(bot_input=="bot2"):
         chatbot_response = await chatbot(user_input)
-    else :
+    elif(bot_input=="bot3") :
         chatbot_response = await chatbot3(user_input)
     
     chatbot_response = chatbot_response.to_dict()
